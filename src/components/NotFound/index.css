@@ -1,0 +1,95 @@
+.not-found-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.not-found-image {
+  width: 448px;
+  height: 300px;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 768px) {
+  .not-found-image {
+    width: 225px;
+    height: 151.001px;
+    flex-shrink: 0;
+  }
+}
+.not-found-heading {
+  color: var(--light-blue-gray-700, #334155);
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 150% */
+}
+@media screen and (max-width: 768px) {
+  .not-found-heading {
+    color: var(--light-blue-gray-700, #334155);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
+  }
+}
+.not-found-paragraph {
+  color: var(--light-blue-gray-600, #475569);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+@media screen and (max-width: 768px) {
+  .not-found-paragraph {
+    color: var(--light-blue-gray-600, #475569);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    width: 312px;
+  }
+}
+.not-found-button {
+  display: flex;
+  padding: 12px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  background: #0284c7;
+  color: var(--light-base-white, #fff);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+  border: 0;
+}
+@media screen and (max-width: 768px) {
+  .not-found-button {
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #0284c7;
+    color: var(--light-base-white, #fff);
+
+    /* Action / Button / Small */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+  }
+}

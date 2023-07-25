@@ -1,0 +1,29 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.footers-icons-container {
+  width: 145px;
+  height: 21px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-icon {
+  color: #3d3c3c;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-heading {
+  color: #3d3c3c;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
