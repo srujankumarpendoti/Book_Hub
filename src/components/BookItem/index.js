@@ -7,7 +7,7 @@ const BookItem = props => {
   const {authorName, coverPic, rating, readStatus, title, id} = bookDetails
   const bookPath = `/books/${id}`
   return (
-    <li testid="bookItem" className="book-item-container">
+    <li className="book-item-container">
       <Link className="book-item-link" to={bookPath}>
         <img src={coverPic} alt={title} className="book-item-image" />
         <div className="book-item-content-container">
@@ -18,7 +18,7 @@ const BookItem = props => {
             <p className="book-item-rating">{rating}</p>
           </p>
           <p className="book-item-read-status-container">
-            Status : <p className="book-item-read-status">{readStatus}</p>
+            Status: <p className="book-item-read-status">{readStatus}</p>
           </p>
         </div>
       </Link>

@@ -100,13 +100,15 @@ class Home extends Component {
           const bookLink = `/books/${id}`
 
           return (
-            <div className="slick-item" key={id}>
-              <Link className="slick-item-link" to={bookLink}>
-                <img className="slick-cover-pic" src={coverPic} alt={title} />
-                <h1 className="slick-item-title">{title}</h1>
-                <p className="slick-item-author">{authorName}</p>
-              </Link>
-            </div>
+            <ul>
+              <li className="slick-item" key={id}>
+                <Link className="slick-item-link" to={bookLink}>
+                  <img className="slick-cover-pic" src={coverPic} alt={title} />
+                  <h1 className="slick-item-title">{title}</h1>
+                  <p className="slick-item-author">{authorName}</p>
+                </Link>
+              </li>
+            </ul>
           )
         })}
       </Slider>

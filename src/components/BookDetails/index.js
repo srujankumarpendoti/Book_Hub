@@ -126,13 +126,12 @@ class BookDetails extends Component {
               <h1 className="book-details-title">{title}</h1>
               <p className="book-details-author">{authorName}</p>
               <p className="book-details-rating-container">
-                Avg Rating{' '}
-                <BsFillStarFill className="book-details-rating-icon" />{' '}
+                Avg Rating
+                <BsFillStarFill className="book-details-rating-icon" />
                 <p className="book-details-rating">{rating}</p>
               </p>
               <p className="book-details-read-status-container">
-                Status :{' '}
-                <p className="book-details-read-status">{readStatus}</p>
+                Status: <p className="book-details-read-status">{readStatus}</p>
               </p>
             </div>
           </div>

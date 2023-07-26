@@ -41,7 +41,7 @@ const initialApiStatusConstants = {
 
 class Books extends Component {
   state = {
-    activeTab: bookshelvesList[0].value,
+    activeTab: 'ALL',
     activeTablabel: bookshelvesList[0].label,
     booksList: [],
     apiStatus: initialApiStatusConstants.initial,
