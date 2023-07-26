@@ -25,7 +25,6 @@
   color: var(--light-blue-gray-700, #334155);
 
   font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px; /* 150% */
   margin-top: 0;
@@ -34,7 +33,6 @@
 .book-item-author {
   color: var(--light-blue-gray-600, #475569);
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 114.286% */
   margin-top: 0;
@@ -43,7 +41,6 @@
 .book-item-rating-container {
   color: var(--light-blue-gray-600, #475569);
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 133.333% */
   display: flex;
@@ -64,14 +61,12 @@
 .book-item-rating {
   color: var(--light-blue-gray-700, #334155);
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 142.857% */
 }
 .book-item-read-status-container {
   color: var(--light-blue-gray-600, #475569);
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 133.333% */
   margin-top: 0;
@@ -82,7 +77,6 @@
 .book-item-read-status {
   color: #0284c7;
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 133.333% */
   margin-left: 8px;

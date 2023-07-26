@@ -101,7 +101,6 @@
   align-items: center;
   color: var(--light-blue-gray-600, #475569);
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 32px; /* 133.333% */
   margin-top: 0;
@@ -169,9 +168,7 @@
 }
 .book-details-read-status {
   color: #0284c7;
-  font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 32px; /* 133.333% */
   margin-left: 8px;
@@ -193,9 +190,7 @@
 }
 .book-details-about-heading {
   color: var(--light-blue-gray-700, #334155);
-  font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
   line-height: 32px; /* 133.333% */
   margin-top: 24px;
@@ -208,10 +203,8 @@
 }
 .book-details-about-description {
   color: var(--light-blue-gray-600, #475569);
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-family: Inter;
+
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 175% */
 }

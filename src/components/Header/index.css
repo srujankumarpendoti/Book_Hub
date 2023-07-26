@@ -20,6 +20,7 @@
   height: 41.001px;
   flex-shrink: 0;
   display: flex;
+  align-items: flex-end;
   text-decoration: none;
 }
 @media screen and (max-width: 768px) {
@@ -37,19 +38,15 @@
 }
 .navbar-company-name {
   display: flex;
-  padding-bottom: 10px;
-  height: 17px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
   color: #0284c7;
   text-align: center;
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-family: 'Almendra SC';
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 100% */
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -59,21 +56,10 @@
     flex-shrink: 0;
   }
   .navbar-company-name {
-    display: flex;
-    width: 65px;
     height: 17px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #0284c7;
-    text-align: center;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Almendra SC;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px; /* 133.333% */
-    padding-bottom: 17px;
+    margin: 0;
   }
 }
 .nav-items-logout-container {
@@ -97,9 +83,7 @@
 }
 .nav-item-link {
   color: var(--light-blue-gray-500, #64748b);
-  font-family: Inter;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   text-decoration: none;
@@ -113,9 +97,7 @@
   margin-left: 32px;
   background-color: #0284c7;
   color: var(--light-blue-gray-50, #f8fafc);
-  font-family: Inter;
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 133.333% */
   border-radius: 4px;
@@ -145,7 +127,6 @@
 .active-tab {
   color: #0284c7;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
 }

@@ -26,9 +26,7 @@
 
 .books-left-navbar-heading {
   color: var(--light-blue-gray-700, #334155);
-  font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
   line-height: 32px; /* 160% */
 }
@@ -65,7 +63,6 @@
 .books-all-heading {
   color: var(--light-blue-gray-700, #334155);
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -131,7 +128,6 @@
 }
 .books-no-result-heading {
   color: var(--light-blue-gray-700, #334155);
-  font-family: Inter;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
